@@ -221,3 +221,52 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# ==========================================
+# THESIS PROJECT - DATA AND OUTPUTS
+# ==========================================
+
+# Raw datasets
+data/raw/
+
+# Intermediate and processed datasets
+data/interim/
+data/processed/
+
+# Temporary data
+data/temp/
+data/tmp/
+
+# Stata datasets
+*.dta
+
+# IPUMS CPS raw data
+*.dat
+
+# Generated data formats
+*.parquet
+*.feather
+*.arrow
+
+# Compressed dataset archives
+*.zip
+*.7z
+*.tar
+*.gz
+
+# Generated results
+results/
+outputs/
+
+# Local operating system files
+.DS_Store
+Thumbs.db
+
+# IDE configuration
+.vscode/
+.idea/
+
+# Keep dataset documentation
+# XML and TXT files are NOT ignored
+# They can be uploaded separately
+# after checking redistribution permissions
